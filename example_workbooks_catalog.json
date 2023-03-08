@@ -6,124 +6,124 @@
       "7.1.8": {
         "default": [
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/entity_tracking.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/entity_tracking.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/default/entity_tracking.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/entity_tracking.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/fin_risk.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/fin_risk.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/default/fin_risk.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/real_time_financial_risk.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/graph_shortest_path.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/graph_shortest_path.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/default/graph_shortest_path.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/graph_shortest_path.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/quick_start_guide.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/quick_start_guide.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/default/quick_start_guide.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/quick_start_guide.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/spatial_analytics.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/spatial_analytics.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/default/spatial_analytics.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/spatial_analytics.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/time_series_analysis.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/time_series_analysis.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/default/time_series_analysis.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/time_series_analysis.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/transit_trucks_monitoring.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/transit_trucks_monitoring.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/default/transit_trucks_monitoring.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/real_time_truck_monitoring.png"
           }
         ],
         "free_saas": [
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/entity_tracking.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/entity_tracking.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/free_saas/entity_tracking.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/entity_tracking.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/fin_risk.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/fin_risk.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/free_saas/fin_risk.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/real_time_financial_risk.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/graph_shortest_path.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/graph_shortest_path.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/free_saas/graph_shortest_path.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/graph_shortest_path.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/quick_start_guide.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/quick_start_guide.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/free_saas/quick_start_guide.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/quick_start_guide.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/spatial_analytics.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/spatial_analytics.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/free_saas/spatial_analytics.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/spatial_analytics.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/time_series_analysis.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/time_series_analysis.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/free_saas/time_series_analysis.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/time_series_analysis.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/transit_trucks_monitoring.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/transit_trucks_monitoring.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/free_saas/transit_trucks_monitoring.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/real_time_truck_monitoring.png"
           }
         ]
       },
       "7.1.9": {
         "default": [
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/entity_tracking.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/entity_tracking.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/default/entity_tracking.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/entity_tracking.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/fin_risk.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/fin_risk.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/default/fin_risk.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/real_time_financial_risk.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/graph_shortest_path.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/graph_shortest_path.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/default/graph_shortest_path.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/graph_shortest_path.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/quick_start_guide.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/quick_start_guide.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/default/quick_start_guide.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/quick_start_guide.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/spatial_analytics.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/spatial_analytics.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/default/spatial_analytics.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/spatial_analytics.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/time_series_analysis.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/time_series_analysis.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/default/time_series_analysis.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/time_series_analysis.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/transit_trucks_monitoring.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/transit_trucks_monitoring.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/default/transit_trucks_monitoring.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/real_time_truck_monitoring.png"
           }
         ],
         "free_saas": [
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/entity_tracking.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/entity_tracking.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/free_saas/entity_tracking.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/entity_tracking.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/fin_risk.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/fin_risk.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/free_saas/fin_risk.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/real_time_financial_risk.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/graph_shortest_path.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/graph_shortest_path.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/free_saas/graph_shortest_path.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/graph_shortest_path.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/quick_start_guide.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/quick_start_guide.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/free_saas/quick_start_guide.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/quick_start_guide.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/spatial_analytics.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/spatial_analytics.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/free_saas/spatial_analytics.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/spatial_analytics.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/time_series_analysis.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/time_series_analysis.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/free_saas/time_series_analysis.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/time_series_analysis.png"
           },
           {
-            "source": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/transit_trucks_monitoring.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/transit_trucks_monitoring.png"
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.8/free_saas/transit_trucks_monitoring.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/real_time_truck_monitoring.png"
           }
         ]
       }
