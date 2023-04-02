@@ -2,7 +2,7 @@
   "workbook": {
     "id": "223ce170-b708-11ed-93a5-3f0b17e09293",
     "name": "Spatial Analytics",
-    "description": "Bite sized use cases",
+    "description": "Real time spatial analytics with Kinetica.",
     "metadata": {
       "example_id": "377bf0dc-edaa-4944-a8a4-9a1f3bafed9a",
       "features": [
