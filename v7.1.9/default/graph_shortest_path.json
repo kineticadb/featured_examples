@@ -4,6 +4,7 @@
     "name": "Graph Shortest Path",
     "description": "This guide shows how to use Kinetica's graph API to the shortest routes between different points in Seattle. The entire exercise is done using SQL. There are three types of routes that we solve - single source to single destination, a single source to many destinations and many sources to many destinations.",
     "metadata": {
+      "revision": 20230621,
       "example_id": "b4a7c790-566a-11ed-b4f2-d95bad9d0083",
       "features": ["S3 ingest", "Graph solvers"],
       "approx_time": "10 mins",
