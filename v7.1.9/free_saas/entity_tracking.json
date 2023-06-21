@@ -4,6 +4,7 @@
     "name": "Tracking Entities In Real Time",
     "description": "This workbook uses a small sample of the AIS data to track entities in real time.",
     "metadata": {
+      "revision": 20230621,
       "example_id": "1ee8d2d0-3ae5-11ed-97c0-a3308093a434",
       "features": [
         "Kafka ingest",
