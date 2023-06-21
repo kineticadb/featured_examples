@@ -4,6 +4,7 @@
     "name": "Real-Time Financial Risk",
     "description": "In this demo, we set up a real-time risk monitoring system with Kinetica that alerts investors as and when portfolio values fall below certain thresholds. This is a really simple demo that solves a challenging problem. The steps broadly are the following.\n1. Plug into streaming and static data sources and load the data into relational tables in Kinetica\n2. Setup a continuously updated risk monitoring view that combines portfolio holdings data with real time stock prices\n3. Setup up alerts via webhooks and/or sink the data to a Kafka topic\nAll of this is done with just a few simple SQL statements and relational tables.",
     "metadata": {
+      "revision": 20230621,
       "example_id": "5710bbf0-566a-11ed-b4f2-d95bad9d0083",
       "features": ["S3 ingest", "Kafka ingest", "Materialized views", "Alerts"],
       "approx_time": "10 mins",

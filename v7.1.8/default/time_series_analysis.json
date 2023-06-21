@@ -5,6 +5,7 @@
         "name": "Time Series Analysis",
         "description": "Common time series functions and use cases.",
         "metadata": {
+            "revision": 20230621,
             "example_id": "3fd9d237-7bc2-4ab1-903e-0405bbd5ae26",
             "features": [
               "Kafka ingest",

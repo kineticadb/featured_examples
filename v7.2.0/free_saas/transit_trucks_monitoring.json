@@ -4,6 +4,7 @@
     "name": "Real-Time Truck Monitoring",
     "description": "This demo sets up a monitoring system for cold transit trucks using Kinetica. There are two streaming data inputs of interest – GPS location and refrigeration metrics. The key challenge is that we need to combine the two streaming inputs (location and metrics) that are recorded using sensors that transmit the information at different timestamps. We solve this by performing an inexact ASOF join that is kept updated in real time using a materialized view.",
     "metadata": {
+      "revision": 20230621,
       "example_id": "bf91b200-554e-11ed-b4f2-d95bad9d0083",
       "features": [
         "Kafka ingest",
