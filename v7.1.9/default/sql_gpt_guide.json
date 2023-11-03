@@ -49,7 +49,7 @@
     "is_example": true,
     "is_shared": false,
     "created_at": "2023-05-31T17:28:51.244Z",
-    "updated_at": "2023-11-03T19:56:52.724Z",
+    "updated_at": "2023-11-03T20:21:11.903Z",
     "userId": "e2f61290-79ab-11ee-9d5d-9d16cc07ea81"
   },
   "worksheets": [
@@ -90,9 +90,6 @@
       "config": {
         "contexts": [
           {
-            "context_name": "ki_home.sql_gpt_rules_ctx"
-          },
-          {
             "context_name": "ki_home.quotes_ctx"
           },
           {
@@ -107,7 +104,7 @@
       "next_worksheet_id": "c2adc140-7a55-11ee-9d5d-9d16cc07ea81",
       "workbook_id": "c29e7f00-7a55-11ee-9d5d-9d16cc07ea81",
       "created_at": "2023-05-31T17:59:07.252Z",
-      "updated_at": "2023-11-03T16:57:00.899Z",
+      "updated_at": "2023-11-03T20:21:11.897Z",
       "workbookId": "c29e7f00-7a55-11ee-9d5d-9d16cc07ea81"
     },
     {
@@ -582,11 +579,11 @@
         "description": "Description for Block",
         "content": "\"CREATE or REPLACE directed GRAPH kgraph (\\n    NODES => INPUT_TABLES(\\n        (select 'kerry' AS NAME, 'ORIGINATOR:ZONEA' AS LABEL),\\n        (select 'cathy' AS NAME, 'SUSPECT:ZONEA' AS LABEL),\\n        (select 'pat' AS NAME, 'SUSPECT:ZONEB' AS LABEL)\\n    ),\\n    EDGES => INPUT_TABLES(\\n        (select 'kerry' AS NODE1_NAME, 'kevin' AS NODE2_NAME),\\n        (select 'kevin' AS NODE1_NAME, 'martin' AS NODE2_NAME),\\n        (select 'martin' AS NODE1_NAME, 'joe' AS NODE2_NAME),\\n        (select 'joe' AS NODE1_NAME, 'john' AS NODE2_NAME),\\n        (select 'john' AS NODE1_NAME, 'kevin' AS NODE2_NAME),\\n        (select 'john' AS NODE1_NAME, 'martha' AS NODE2_NAME),\\n        (select 'martha' AS NODE1_NAME, 'matt' AS NODE2_NAME),\\n        (select 'tom' AS NODE1_NAME, 'bill' AS NODE2_NAME),\\n        (select 'tom' AS NODE1_NAME, 'pat' AS NODE2_NAME),\\n        (select 'pat' AS NODE1_NAME, 'joe' AS NODE2_NAME),\\n        (select 'pat' AS NODE1_NAME, 'mary' AS NODE2_NAME),\\n        (select 'mary' AS NODE1_NAME, 'kerry' AS NODE2_NAME),\\n        (select 'mary' AS NODE1_NAME, 'cathy' AS NODE2_NAME),\\n        (select 'josh' AS NODE1_NAME, 'cathy' AS NODE2_NAME),\\n        (select 'josh' AS NODE1_NAME, 'matt' AS NODE2_NAME),\\n        (select 'bill' AS NODE1_NAME, 'josh' AS NODE2_NAME),\\n        (select 'matt' AS NODE1_NAME, 'tom' AS NODE2_NAME)),\\n    OPTIONS => KV_PAIRS(graph_table = 'kgraph_table', label_delimiter = ':')\\n    );\\n\\n    -- Create the context for the output table\\nCREATE OR REPLACE CONTEXT kgraph_ctx\\n(\\n    TABLE = kgraph_table,\\n    COMMENT = 'Describes how people are associated to each other with nodes and edges',\\n    RULES = \\n    (\\n        'EDGE_NODE1_NAME and EDGE_NODE2_NAME represents an association', \\n        'Ignore EDGE_DIRECTION', \\n        'Only include columns EDGE_NODE1_NAME and EDGE_NODE2_NAME in results'   \\n    )\\n)\"",
         "previous_block_id": "c2c34510-7a55-11ee-9d5d-9d16cc07ea81",
-        "next_block_id": "6a394670-7a68-11ee-9d5d-9d16cc07ea81",
+        "next_block_id": null,
         "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
         "worksheet_id": "c2b33f80-7a55-11ee-9d5d-9d16cc07ea81",
         "created_at": "2023-06-07T17:03:34.175Z",
-        "updated_at": "2023-11-03T16:45:37.567Z",
+        "updated_at": "2023-11-03T20:20:51.210Z",
         "worksheetId": "c2b33f80-7a55-11ee-9d5d-9d16cc07ea81",
         "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
       },
@@ -637,31 +634,16 @@
       },
       {
         "config": {},
-        "id": "6a394670-7a68-11ee-9d5d-9d16cc07ea81",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"-- Create a rules context\\nCREATE OR REPLACE CONTEXT sql_gpt_rules_ctx \\n(\\n    RULES = \\n    (\\n        'The correct way to specify an INTERVAL expression is as follows INTERVAL 0 MINUTE you can change the 0 to any other real number within single quotes and the unit can be SECOND MINUTE HOUR or DAY',\\n        'Never reference columns that do not exist in the tables used for generating SQL. Always check the DDLs to make sure all the columns exist in the tables in the query.'\\n    )\\n)\"",
-        "previous_block_id": "c2c25ab0-7a55-11ee-9d5d-9d16cc07ea81",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "c2b33f80-7a55-11ee-9d5d-9d16cc07ea81",
-        "created_at": "2023-11-03T16:45:37.239Z",
-        "updated_at": "2023-11-03T16:56:55.807Z",
-        "worksheetId": "c2b33f80-7a55-11ee-9d5d-9d16cc07ea81",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
         "id": "0f527140-7a69-11ee-9d5d-9d16cc07ea81",
         "name": "Block",
         "description": "Description for Block",
-        "content": "\"-- Create the context object for trades table\\nCREATE OR REPLACE CONTEXT trades_ctx\\n(\\n    TABLE = trades,\\n    COMMENT = 'This table provides the open, close, low and high prices along with the trading volumes at one minute intervals for Amazon (AMZN), Google (GOOG) and Apple (AAPL) stocks. Each row is uniquely identified using the symbol and timestamp.',\\n    COMMENTS = \\n    (\\n        time = 'The time that records one mintute intervals for trade data for different stocks',\\n        symbol = 'Four letter stock symbols for Amazon (AMZN), Google (GOOG) and Apple (AAPL)',\\n        price_open = 'The opening price for a particular one minute trading window.',\\n        price_close = 'The closing price for a particular one minute trading window.',\\n        price_low = 'The lowest price for a particular one minute trading window.',\\n        price_high = 'The highest price for a particular one minute trading window.',\\n        trading_volume = 'The total volume of a particular stock traded during the one minute window'\\n    )\\n)\"",
+        "content": "\"-- Create the context object for trades table\\nCREATE OR REPLACE CONTEXT trades_ctx\\n(\\n    TABLE = trades,\\n    COMMENT = 'This table provides the open, close, low and high prices along with the trading volumes at one minute intervals for Amazon (AMZN), Google (GOOG) and Apple (AAPL) stocks. Each row is uniquely identified using the symbol and timestamp.',\\n    COMMENTS = \\n    (\\n        time = 'The time that records one mintute intervals for trade data for different stocks',\\n        symbol = 'Four letter stock symbols for Amazon (AMZN), Google (GOOG) and Apple (AAPL)',\\n        price_open = 'The opening price for a particular one minute trading window.',\\n        price_close = 'The closing price for a particular one minute trading window.',\\n        price_low = 'The lowest price for a particular one minute trading window.',\\n        price_high = 'The highest price for a particular one minute trading window.',\\n        trading_volume = 'The total volume of a particular stock traded during the one minute window'\\n    ),\\n    RULES = \\n    (\\n        'The correct way to specify an INTERVAL expression is as follows INTERVAL 0 MINUTE you can change the 0 to any other real number within single quotes and the unit can be SECOND MINUTE HOUR or DAY',\\n        'Never reference columns that do not exist in the tables used for generating SQL. Always check the DDLs to make sure all the columns exist in the tables in the query.'\\n    )\\n)\"",
         "previous_block_id": "c2beff50-7a55-11ee-9d5d-9d16cc07ea81",
         "next_block_id": "c2bb55d0-7a55-11ee-9d5d-9d16cc07ea81",
         "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
         "worksheet_id": "c2b33f80-7a55-11ee-9d5d-9d16cc07ea81",
         "created_at": "2023-11-03T16:50:14.229Z",
-        "updated_at": "2023-11-03T16:53:39.102Z",
+        "updated_at": "2023-11-03T20:20:45.983Z",
         "worksheetId": "c2b33f80-7a55-11ee-9d5d-9d16cc07ea81",
         "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
       },
@@ -766,7 +748,6 @@
     "c2c34510-7a55-11ee-9d5d-9d16cc07ea81": [],
     "9cca64f0-7a56-11ee-9d5d-9d16cc07ea81": [],
     "5bf4b010-7a57-11ee-9d5d-9d16cc07ea81": [],
-    "6a394670-7a68-11ee-9d5d-9d16cc07ea81": [],
     "0f527140-7a69-11ee-9d5d-9d16cc07ea81": [],
     "1a9b6390-7a69-11ee-9d5d-9d16cc07ea81": []
   }
