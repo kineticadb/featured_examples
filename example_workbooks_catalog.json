@@ -195,6 +195,108 @@
           }
         ]
       },
+      "7.1.10": {
+        "default": [
+          {
+            "revision": 20230621,
+            "example_id": "1ee8d2d0-3ae5-11ed-97c0-a3308093a434",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/default/entity_tracking.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/entity_tracking.png"
+          },
+          {
+            "revision": 20230621,
+            "example_id": "5710bbf0-566a-11ed-b4f2-d95bad9d0083",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/default/fin_risk.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/real_time_financial_risk.png"
+          },
+          {
+            "revision": 20230621,
+            "example_id": "b4a7c790-566a-11ed-b4f2-d95bad9d0083",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/default/graph_shortest_path.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/graph_shortest_path.png"
+          },
+          {
+            "revision": 20230621,
+            "example_id": "9289ad70-5667-11ed-b4f2-d95bad9d0083",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/default/quick_start_guide.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/quick_start_guide.png"
+          },
+          {
+            "revision": 20230621,
+            "example_id": "377bf0dc-edaa-4944-a8a4-9a1f3bafed9a",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/default/spatial_analytics.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/spatial_analytics.png"
+          },
+          {
+            "revision": 20230621,
+            "example_id": "3fd9d237-7bc2-4ab1-903e-0405bbd5ae26",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/default/time_series_analysis.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/time_series_analysis.png"
+          },
+          {
+            "revision": 20230621,
+            "example_id": "bf91b200-554e-11ed-b4f2-d95bad9d0083",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/default/transit_trucks_monitoring.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/real_time_truck_monitoring.png"
+          },
+          {
+            "revision": 20230621,
+            "example_id": "2c687afa-3c56-4191-af6e-3c8a966f3d94",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/default/sql_gpt_guide.json",
+            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/sql_gpt_guide.png"
+          }
+        ],
+        "free_saas": [
+          {
+            "revision": 20230621,
+            "example_id": "1ee8d2d0-3ae5-11ed-97c0-a3308093a434",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/free_saas/entity_tracking.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/entity_tracking.png"
+          },
+          {
+            "revision": 20230621,
+            "example_id": "5710bbf0-566a-11ed-b4f2-d95bad9d0083",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/free_saas/fin_risk.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/real_time_financial_risk.png"
+          },
+          {
+            "revision": 20230621,
+            "example_id": "b4a7c790-566a-11ed-b4f2-d95bad9d0083",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/free_saas/graph_shortest_path.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/graph_shortest_path.png"
+          },
+          {
+            "revision": 20230621,
+            "example_id": "9289ad70-5667-11ed-b4f2-d95bad9d0083",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/free_saas/quick_start_guide.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/quick_start_guide.png"
+          },
+          {
+            "revision": 20230621,
+            "example_id": "377bf0dc-edaa-4944-a8a4-9a1f3bafed9a",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/free_saas/spatial_analytics.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/spatial_analytics.png"
+          },
+          {
+            "revision": 20230621,
+            "example_id": "3fd9d237-7bc2-4ab1-903e-0405bbd5ae26",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/free_saas/time_series_analysis.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/time_series_analysis.png"
+          },
+          {
+            "revision": 20230621,
+            "example_id": "bf91b200-554e-11ed-b4f2-d95bad9d0083",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/free_saas/transit_trucks_monitoring.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/real_time_truck_monitoring.png"
+          },
+          {
+            "revision": 20230621,
+            "example_id": "2c687afa-3c56-4191-af6e-3c8a966f3d94",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/free_saas/sql_gpt_guide.json",
+            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/sql_gpt_guide.png"
+          }
+        ]
+      },
       "7.2.0": {
         "default": [
           {
