@@ -141,7 +141,7 @@
             "revision": 20230621,
             "example_id": "2c687afa-3c56-4191-af6e-3c8a966f3d94",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/default/sql_gpt_guide.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/sql_gpt_guide.png"
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/sql_gpt_guide.png"
           }
         ],
         "free_saas": [
@@ -191,7 +191,7 @@
             "revision": 20230621,
             "example_id": "2c687afa-3c56-4191-af6e-3c8a966f3d94",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/free_saas/sql_gpt_guide.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/sql_gpt_guide.png"
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/sql_gpt_guide.png"
           }
         ]
       },
@@ -243,7 +243,7 @@
             "revision": 20230621,
             "example_id": "2c687afa-3c56-4191-af6e-3c8a966f3d94",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/default/sql_gpt_guide.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/sql_gpt_guide.png"
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/sql_gpt_guide.png"
           }
         ],
         "free_saas": [
@@ -293,7 +293,7 @@
             "revision": 20230621,
             "example_id": "2c687afa-3c56-4191-af6e-3c8a966f3d94",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.1.9/free_saas/sql_gpt_guide.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/sql_gpt_guide.png"
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/sql_gpt_guide.png"
           }
         ]
       },
@@ -345,7 +345,13 @@
             "revision": 20230621,
             "example_id": "2c687afa-3c56-4191-af6e-3c8a966f3d94",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.0/default/sql_gpt_guide.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/sql_gpt_guide.png"
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/sql_gpt_guide.png"
+          },
+          {
+            "revision": 20240506,
+            "example_id": "f35fa5be-bded-4d6d-a49e-02aab1af5c07",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.0/default/property_graph.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/property_graph.png"
           }
         ],
         "free_saas": [
@@ -395,7 +401,13 @@
             "revision": 20230621,
             "example_id": "2c687afa-3c56-4191-af6e-3c8a966f3d94",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.0/free_saas/sql_gpt_guide.json",
-            "thumbnail": "https://kinetica-workbench.s3.amazonaws.com/workbooks/examples/sql_gpt_guide.png"
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/sql_gpt_guide.png"
+          },
+          {
+            "revision": 20240506,
+            "example_id": "f35fa5be-bded-4d6d-a49e-02aab1af5c07",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.0/default/property_graph.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/property_graph.png"
           }
         ]
       }
