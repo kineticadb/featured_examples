@@ -528,6 +528,12 @@
       "7.2.2": {
         "default": [
           {
+            "revision": 20250220,
+            "example_id": "9aed4ffc-8ba6-4012-8a26-efbf5806f232",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.2/default/foursquare_places.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/foursquare_places.png"
+          },
+          {
             "revision": 20230621,
             "example_id": "1ee8d2d0-3ae5-11ed-97c0-a3308093a434",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.0/default/entity_tracking.json",
