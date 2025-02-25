@@ -9,7 +9,7 @@
     },
     "config": {},
     "id": "458fea10-f3be-11ef-adac-9371f7c22665",
-    "name": "Analyze Foursquare OS Places Copy",
+    "name": "Analyze Foursquare OS Places",
     "description": "Compute batch isochrones over road networks with a single SQL statement. Kinetica’s distributed graph processing delivers lightning-fast travel time zone computations, making it a powerful asset for urban planning, emergency response, and business location intelligence—without external tools or complex integrations.",
     "user_id": "fc57c850-59fe-11ed-9510-eb2ad113aef8",
     "warehouse_id": null,
