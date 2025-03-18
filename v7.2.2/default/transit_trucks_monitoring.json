@@ -1,7 +1,7 @@
 {
   "workbook": {
     "metadata": {
-      "revision": 20230621,
+      "revision": 20250317,
       "example_id": "bf91b200-554e-11ed-b4f2-d95bad9d0083",
       "features": [
         "Kafka ingest",

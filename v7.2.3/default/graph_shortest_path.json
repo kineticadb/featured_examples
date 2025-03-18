@@ -1,7 +1,7 @@
 {
   "workbook": {
     "metadata": {
-      "revision": 20230621,
+      "revision": 20250317,
       "example_id": "b4a7c790-566a-11ed-b4f2-d95bad9d0083",
       "features": ["S3 ingest", "Graph solvers"],
       "approx_time": "10 mins",
