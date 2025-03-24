@@ -528,6 +528,12 @@
       "7.2.2": {
         "default": [
           {
+            "revision": 20250324,
+            "example_id": "6cce2731-1886-4fb2-be6b-dd4f7d52c55d",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.2/default/supply_chain_optimization.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/supply_chain_optimization.png"
+          },
+          {
             "revision": 20250227,
             "example_id": "9aed4ffc-8ba6-4012-8a26-efbf5806f232",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.2/default/foursquare_places.json",
@@ -659,6 +665,12 @@
       },
       "7.2.3": {
         "default": [
+          {
+            "revision": 20250324,
+            "example_id": "6cce2731-1886-4fb2-be6b-dd4f7d52c55d",
+            "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.3/default/supply_chain_optimization.json",
+            "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/supply_chain_optimization.png"
+          },
           {
             "revision": 20250227,
             "example_id": "9aed4ffc-8ba6-4012-8a26-efbf5806f232",
