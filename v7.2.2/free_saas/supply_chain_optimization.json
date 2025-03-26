@@ -13,7 +13,7 @@
     },
     "config": {},
     "id": "0c156760-fb66-11ef-adac-9371f7c22665",
-    "name": "Supple Chain Optimization",
+    "name": "Supply Chain Optimization",
     "description": "Similar to the optimal Amazon delivery fleet routing, in our tutorial example we demonstrate scheduling for multiple depots of varying truck sizes to customers of varying demands with multiple constraints in Washington DC metro area. Kinetica-Graph’s generic and scalable optimization solver MSDO (Multiple Supply and Demand Optimization) differentiates from others in its true scalability that did not require formidable construction of a cost matrix  via seamless integration with sql and satisfying all constraints fully instead of blending them. Its practical use for batch Traveling Salesmen case is also shown as a crowd-sourcing solution with results as SVG based animated simulations.",
     "user_id": "77cbefd0-c073-11ee-84f7-0d56c35f6113",
     "warehouse_id": null,
