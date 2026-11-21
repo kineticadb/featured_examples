@@ -1,7 +1,7 @@
 {
   "workbook": {
     "metadata": {
-      "revision": 20250317,
+      "revision": 20261120,
       "example_id": "2c687afa-3c56-4191-af6e-3c8a966f3d94",
       "features": ["SQL GPT", "Spatial", "Time Series", "Graph"],
       "approx_time": "10 mins",
@@ -247,81 +247,6 @@
         "updated_at": "2024-01-19T14:03:10.552Z",
         "worksheetId": "7a83b270-b6d3-11ee-a8f4-ab54b76e6fc9",
         "blockTypeId": "a9949a1a-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
-        "id": "7a864a80-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"-- What is the difference between the closing price and the moving average of the closing price for Apple over the hour? Use 5 observations for the window frame. Keep all columns.\\nSELECT timestamp,\\n       price_close - AVG(price_close) OVER (PARTITION BY symbol ORDER BY timestamp ROWS BETWEEN 4 PRECEDING AND CURRENT ROW) AS closing_price_difference\\nFROM trades\\nWHERE symbol = 'AAPL'\\n  AND timestamp >= NOW() - INTERVAL '1 hour'\\nORDER BY timestamp;\"",
-        "previous_block_id": "7a84eaf0-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "7a83b270-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "created_at": "2023-11-03T16:44:42.251Z",
-        "updated_at": "2024-01-19T14:03:10.558Z",
-        "worksheetId": "7a83b270-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
-        "id": "7a878300-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"-- What is the difference between the closing price and the moving average of the closing price for Apple over the hour? Use 5 observations for the window frame. Keep all columns.\\nSELECT \\n    time,\\n    price_close - AVG(price_close) OVER (PARTITION BY symbol ORDER BY time ROWS BETWEEN 4 PRECEDING AND CURRENT ROW) AS closing_price_difference\\nFROM \\n    ki_home.trades\\nWHERE \\n    symbol = 'AAPL'\\n    AND time >= NOW() - INTERVAL '1 hour'\\nORDER BY \\n    time;\"",
-        "previous_block_id": "7a84eaf0-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "7a83b270-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "created_at": "2023-11-03T16:48:33.104Z",
-        "updated_at": "2024-01-19T14:03:10.569Z",
-        "worksheetId": "7a83b270-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
-        "id": "7a8930b0-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"-- What is the difference between the closing price and the moving average of the closing price for Apple over the hour? Use 5 observations for the window frame. Keep all columns.\\nSELECT \\n    timestamp,\\n    price_close - AVG(price_close) OVER (PARTITION BY symbol ORDER BY time ROWS BETWEEN 4 PRECEDING AND CURRENT ROW) AS closing_price_difference\\nFROM \\n    ki_home.trades\\nWHERE \\n    symbol = 'AAPL'\\n    AND time >= NOW() - INTERVAL '1 HOUR'\\nORDER BY \\n    timestamp;\"",
-        "previous_block_id": "7a84eaf0-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "7a83b270-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "created_at": "2023-11-03T16:51:16.202Z",
-        "updated_at": "2024-01-19T14:03:10.576Z",
-        "worksheetId": "7a83b270-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
-        "id": "7a8b0570-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"-- What is the difference between the closing price and the moving average of the closing price for Apple over the hour? Use 5 observations for the window frame. Keep all columns.\\nSELECT timestamp,\\n       price_close - AVG(price_close) OVER (PARTITION BY symbol ORDER BY time ROWS BETWEEN 4 PRECEDING AND CURRENT ROW) AS closing_price_difference\\nFROM ki_home.trades\\nWHERE symbol = 'AAPL'\\n  AND time >= NOW() - INTERVAL '1 hour'\\nORDER BY timestamp;\"",
-        "previous_block_id": "6574c410-7a69-11ee-9d5d-9d16cc07ea81",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "7a83b270-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "created_at": "2023-11-03T16:53:08.493Z",
-        "updated_at": "2024-01-19T14:03:10.583Z",
-        "worksheetId": "7a83b270-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
-        "id": "7a8c6500-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"-- What is the difference between the closing price and the moving average of the closing price for Apple over the hour? Use 5 observations for the window frame. Keep all columns.\\nSELECT \\n    timestamp,\\n    price_close - AVG(price_close) OVER (PARTITION BY symbol ORDER BY time ROWS BETWEEN 4 PRECEDING AND CURRENT ROW) AS closing_price_difference\\nFROM \\n    ki_home.trades\\nWHERE \\n    symbol = 'AAPL'\\n    AND time >= NOW() - INTERVAL '1 HOUR'\\nORDER BY \\n    timestamp\"",
-        "previous_block_id": "6574c410-7a69-11ee-9d5d-9d16cc07ea81",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "7a83b270-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "created_at": "2023-11-03T16:55:38.620Z",
-        "updated_at": "2024-01-19T14:03:10.589Z",
-        "worksheetId": "7a83b270-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
       }
     ],
     "7a942d30-b6d3-11ee-a8f4-ab54b76e6fc9": [
@@ -339,36 +264,6 @@
         "updated_at": "2024-01-19T14:03:10.641Z",
         "worksheetId": "7a942d30-b6d3-11ee-a8f4-ab54b76e6fc9",
         "blockTypeId": "a9949a1a-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
-        "id": "7a96ec50-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"-- Show me all associations with pat?\\nSELECT EDGE_NODE1_NAME, EDGE_NODE2_NAME\\nFROM hsubhash_kinetica.kgraph_table\\nWHERE EDGE_NODE1_NAME = 'pat' OR EDGE_NODE2_NAME = 'pat'\"",
-        "previous_block_id": "37142100-094a-11ee-b899-a5b2228b80e7",
-        "next_block_id": "7a998460-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "7a942d30-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "created_at": "2023-06-12T17:54:58.575Z",
-        "updated_at": "2024-01-19T14:03:10.648Z",
-        "worksheetId": "7a942d30-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
-        "id": "7a998460-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"-- Show me all associations with either pat or joe?\\nSELECT EDGE_NODE1_NAME, EDGE_NODE2_NAME\\nFROM hsubhash_kinetica.kgraph_table\\nWHERE EDGE_NODE1_NAME = 'pat' OR EDGE_NODE2_NAME = 'joe'\"",
-        "previous_block_id": "7a96ec50-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "7a942d30-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "created_at": "2023-06-12T17:55:20.835Z",
-        "updated_at": "2024-01-19T14:03:10.654Z",
-        "worksheetId": "7a942d30-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
       }
     ],
     "7a9e3f50-b6d3-11ee-a8f4-ab54b76e6fc9": [
@@ -675,29 +570,7 @@
     "7a7d49d0-b6d3-11ee-a8f4-ab54b76e6fc9": [],
     "7a7ef780-b6d3-11ee-a8f4-ab54b76e6fc9": [],
     "7a84eaf0-b6d3-11ee-a8f4-ab54b76e6fc9": [],
-    "7a864a80-b6d3-11ee-a8f4-ab54b76e6fc9": [],
-    "7a878300-b6d3-11ee-a8f4-ab54b76e6fc9": [],
-    "7a8930b0-b6d3-11ee-a8f4-ab54b76e6fc9": [],
-    "7a8b0570-b6d3-11ee-a8f4-ab54b76e6fc9": [],
-    "7a8c6500-b6d3-11ee-a8f4-ab54b76e6fc9": [],
     "7a958cc0-b6d3-11ee-a8f4-ab54b76e6fc9": [],
-    "7a96ec50-b6d3-11ee-a8f4-ab54b76e6fc9": [
-      {
-        "config": {
-          "type": "graph"
-        },
-        "id": "7a984be0-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "name": "Graph Visualization",
-        "description": "Description for graph visualization",
-        "block_id": "7a96ec50-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "visualization_type_id": "278540bd-cd50-4f78-871b-65b94001dfee",
-        "created_at": "2023-06-12T17:55:05.216Z",
-        "updated_at": "2024-01-19T14:03:10.622Z",
-        "blockId": "7a96ec50-b6d3-11ee-a8f4-ab54b76e6fc9",
-        "visualizationTypeId": "278540bd-cd50-4f78-871b-65b94001dfee"
-      }
-    ],
-    "7a998460-b6d3-11ee-a8f4-ab54b76e6fc9": [],
     "7a9f77d0-b6d3-11ee-a8f4-ab54b76e6fc9": [],
     "7aa0b050-b6d3-11ee-a8f4-ab54b76e6fc9": [],
     "7aa1e8d0-b6d3-11ee-a8f4-ab54b76e6fc9": [],

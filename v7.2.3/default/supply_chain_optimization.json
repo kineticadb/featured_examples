@@ -1,7 +1,7 @@
 {
   "workbook": {
     "metadata": {
-      "revision": 20250326,
+      "revision": 20261120,
       "example_id": "6cce2731-1886-4fb2-be6b-dd4f7d52c55d",
       "features": [
         "Graph Analytics",
@@ -132,21 +132,6 @@
       },
       {
         "config": {},
-        "id": "0c70a6c0-fb66-11ef-adac-9371f7c22665",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"\"",
-        "previous_block_id": "0c6f6e40-fb66-11ef-adac-9371f7c22665",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "0c6e5cd0-fb66-11ef-adac-9371f7c22665",
-        "created_at": "2023-11-01T16:50:52.344Z",
-        "updated_at": "2025-03-07T15:08:38.671Z",
-        "worksheetId": "0c6e5cd0-fb66-11ef-adac-9371f7c22665",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
         "id": "0c71b830-fb66-11ef-adac-9371f7c22665",
         "name": "Block",
         "description": "Description for Block",
@@ -204,51 +189,6 @@
         "updated_at": "2025-03-07T15:08:38.697Z",
         "worksheetId": "0c6e5cd0-fb66-11ef-adac-9371f7c22665",
         "blockTypeId": "a9949a1a-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
-        "id": "0c769a30-fb66-11ef-adac-9371f7c22665",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"\"",
-        "previous_block_id": "0c7588c0-fb66-11ef-adac-9371f7c22665",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "0c6e5cd0-fb66-11ef-adac-9371f7c22665",
-        "created_at": "2023-11-01T16:59:43.612Z",
-        "updated_at": "2025-03-07T15:08:38.703Z",
-        "worksheetId": "0c6e5cd0-fb66-11ef-adac-9371f7c22665",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
-        "id": "0c77aba0-fb66-11ef-adac-9371f7c22665",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"CREATE OR REPLACE DIRECTED GRAPH dc \\n    (EDGES => INPUT_TABLE (\\n        SELECT  id  AS ID,\\n            wkt AS WKTLINE,                                            \\n            dir AS DIRECTION,\\n            time  AS WEIGHT_VALUESPECIFIED\\n        FROM dc\\n    ),\\n    OPTIONS => KV_PAIRS\\n    ( \\n        graph_table = 'dc_graph_table'\\n    )\\n);\"",
-        "previous_block_id": "0c7588c0-fb66-11ef-adac-9371f7c22665",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "0c6e5cd0-fb66-11ef-adac-9371f7c22665",
-        "created_at": "2023-11-01T17:09:07.127Z",
-        "updated_at": "2025-03-07T15:08:38.710Z",
-        "worksheetId": "0c6e5cd0-fb66-11ef-adac-9371f7c22665",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
-        "id": "0c78bd10-fb66-11ef-adac-9371f7c22665",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"\"",
-        "previous_block_id": "0c7588c0-fb66-11ef-adac-9371f7c22665",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "0c6e5cd0-fb66-11ef-adac-9371f7c22665",
-        "created_at": "2023-11-01T17:11:21.753Z",
-        "updated_at": "2025-03-07T15:08:38.716Z",
-        "worksheetId": "0c6e5cd0-fb66-11ef-adac-9371f7c22665",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
       },
       {
         "config": {},
@@ -429,14 +369,10 @@
     ],
     "0c6953c0-fb66-11ef-adac-9371f7c22665": [],
     "0c6f6e40-fb66-11ef-adac-9371f7c22665": [],
-    "0c70a6c0-fb66-11ef-adac-9371f7c22665": [],
     "0c71b830-fb66-11ef-adac-9371f7c22665": [],
     "0c733ed0-fb66-11ef-adac-9371f7c22665": [],
     "0c747750-fb66-11ef-adac-9371f7c22665": [],
     "0c7588c0-fb66-11ef-adac-9371f7c22665": [],
-    "0c769a30-fb66-11ef-adac-9371f7c22665": [],
-    "0c77aba0-fb66-11ef-adac-9371f7c22665": [],
-    "0c78bd10-fb66-11ef-adac-9371f7c22665": [],
     "0c79f590-fb66-11ef-adac-9371f7c22665": [],
     "0c7b0700-fb66-11ef-adac-9371f7c22665": [],
     "0c7dc620-fb66-11ef-adac-9371f7c22665": [],

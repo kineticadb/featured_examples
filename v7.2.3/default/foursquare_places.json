@@ -1,7 +1,7 @@
 {
   "workbook": {
     "metadata": {
-      "revision": 20250326,
+      "revision": 20261120,
       "example_id": "9aed4ffc-8ba6-4012-8a26-efbf5806f232",
       "features": ["Graph analytics", "Location analytics"],
       "approx_time": "10 mins",
@@ -142,36 +142,6 @@
         "updated_at": "2025-03-26T19:53:23.439Z",
         "worksheetId": "c7d38a30-0a7b-11f0-bf9c-c524cca5262d",
         "blockTypeId": "a9949a1a-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
-        "id": "c7d44d80-0a7b-11f0-bf9c-c524cca5262d",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"\"",
-        "previous_block_id": "3fe0cf40-e7fb-11ef-a7cb-991d57919859",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "c7d38a30-0a7b-11f0-bf9c-c524cca5262d",
-        "created_at": "2025-02-05T18:57:02.119Z",
-        "updated_at": "2025-03-26T19:51:59.853Z",
-        "worksheetId": "c7d38a30-0a7b-11f0-bf9c-c524cca5262d",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
-        "id": "c7d49ba0-0a7b-11f0-bf9c-c524cca5262d",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"\"",
-        "previous_block_id": "1d58a560-ee5e-11ef-a7cb-991d57919859",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "c7d38a30-0a7b-11f0-bf9c-c524cca5262d",
-        "created_at": "2025-02-05T22:28:19.888Z",
-        "updated_at": "2025-03-26T19:51:59.854Z",
-        "worksheetId": "c7d38a30-0a7b-11f0-bf9c-c524cca5262d",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
       },
       {
         "config": {},
@@ -589,8 +559,6 @@
     "c7d22aa0-0a7b-11f0-bf9c-c524cca5262d": [],
     "c7d278c0-0a7b-11f0-bf9c-c524cca5262d": [],
     "c7d3d850-0a7b-11f0-bf9c-c524cca5262d": [],
-    "c7d44d80-0a7b-11f0-bf9c-c524cca5262d": [],
-    "c7d49ba0-0a7b-11f0-bf9c-c524cca5262d": [],
     "c7d4e9c0-0a7b-11f0-bf9c-c524cca5262d": [],
     "c7d537e0-0a7b-11f0-bf9c-c524cca5262d": [],
     "c7d58600-0a7b-11f0-bf9c-c524cca5262d": [],

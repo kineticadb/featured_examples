@@ -666,19 +666,19 @@
       "7.2.3": {
         "default": [
           {
-            "revision": 20250326,
+            "revision": 20261120,
             "example_id": "6cce2731-1886-4fb2-be6b-dd4f7d52c55d",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.3/default/supply_chain_optimization.json",
             "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/supply_chain_optimization.png"
           },
           {
-            "revision": 20250326,
+            "revision": 20261120,
             "example_id": "9aed4ffc-8ba6-4012-8a26-efbf5806f232",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.3/default/foursquare_places.json",
             "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/foursquare_places.png"
           },
           {
-            "revision": 20230621,
+            "revision": 20261120,
             "example_id": "1ee8d2d0-3ae5-11ed-97c0-a3308093a434",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.3/default/entity_tracking.json",
             "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/entity_tracking.png"
@@ -696,7 +696,7 @@
             "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/graph_shortest_path.png"
           },
           {
-            "revision": 20250317,
+            "revision": 20261120,
             "example_id": "9289ad70-5667-11ed-b4f2-d95bad9d0083",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.3/default/quick_start_guide.json",
             "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/quick_start_guide.png"
@@ -720,7 +720,7 @@
             "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/real_time_truck_monitoring.png"
           },
           {
-            "revision": 20230621,
+            "revision": 20261120,
             "example_id": "2c687afa-3c56-4191-af6e-3c8a966f3d94",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.3/default/sql_gpt_guide.json",
             "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/sql_gpt_guide.png"
@@ -740,19 +740,19 @@
         ],
         "free_saas": [
           {
-            "revision": 20250326,
+            "revision": 20261120,
             "example_id": "6cce2731-1886-4fb2-be6b-dd4f7d52c55d",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.3/free_saas/supply_chain_optimization.json",
             "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/supply_chain_optimization.png"
           },
           {
-            "revision": 20250227,
+            "revision": 20261120,
             "example_id": "9aed4ffc-8ba6-4012-8a26-efbf5806f232",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.3/free_saas/foursquare_places.json",
             "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/foursquare_places.png"
           },
           {
-            "revision": 20250317,
+            "revision": 20261120,
             "example_id": "1ee8d2d0-3ae5-11ed-97c0-a3308093a434",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.3/free_saas/entity_tracking.json",
             "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/entity_tracking.png"
@@ -770,7 +770,7 @@
             "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/graph_shortest_path.png"
           },
           {
-            "revision": 20250317,
+            "revision": 20261120,
             "example_id": "9289ad70-5667-11ed-b4f2-d95bad9d0083",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.3/free_saas/quick_start_guide.json",
             "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/quick_start_guide.png"
@@ -794,7 +794,7 @@
             "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/real_time_truck_monitoring.png"
           },
           {
-            "revision": 20250317,
+            "revision": 20261120,
             "example_id": "2c687afa-3c56-4191-af6e-3c8a966f3d94",
             "source": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/v7.2.3/free_saas/sql_gpt_guide.json",
             "thumbnail": "https://raw.githubusercontent.com/kineticadb/featured_examples/main/_images/sql_gpt_guide.png"

@@ -1,7 +1,7 @@
 {
   "workbook": {
     "metadata": {
-      "revision": 20230621,
+      "revision": 20261120,
       "example_id": "1ee8d2d0-3ae5-11ed-97c0-a3308093a434",
       "features": [
         "Kafka ingest",
@@ -105,21 +105,6 @@
   ],
   "blockMap": {
     "2986b4c0-b6d4-11ee-a8f4-ab54b76e6fc9": [
-      {
-        "config": {},
-        "id": "2987ed40-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"\"",
-        "previous_block_id": "d6547660-3a8e-11ed-b64b-dfe44e641bf4",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "2986b4c0-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "created_at": "2022-09-13T09:50:32.862Z",
-        "updated_at": "2024-01-19T14:08:04.199Z",
-        "worksheetId": "2986b4c0-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
       {
         "config": {},
         "id": "298973e0-b6d4-11ee-a8f4-ab54b76e6fc9",
@@ -441,21 +426,6 @@
       },
       {
         "config": {},
-        "id": "29bf02d0-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"\"",
-        "previous_block_id": "1ff057c0-3ae5-11ed-97c0-a3308093a434",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "29bb3240-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "created_at": "2022-09-13T12:43:41.585Z",
-        "updated_at": "2024-01-19T14:08:04.608Z",
-        "worksheetId": "29bb3240-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
         "id": "29c06260-b6d4-11ee-a8f4-ab54b76e6fc9",
         "name": "Block",
         "description": "Description for Block",
@@ -623,36 +593,6 @@
     "29dee6e0-b6d4-11ee-a8f4-ab54b76e6fc9": [
       {
         "config": {},
-        "id": "29e01f60-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"CREATE STREAM vessel_tracking.proximity_events\\nON TABLE vessel_tracking.proximity_events\\n    REFRESH ON CHANGE\\n    WHERE TRACK_TABLE_TRACKID!=SEARCH_TABLE_TRACKID\\nWITH OPTIONS \\n(\\n    DATASINK_NAME = 'shipping_alerts'\\n);\"",
-        "previous_block_id": "2034dad0-3ae5-11ed-97c0-a3308093a434",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "29dee6e0-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "created_at": "2022-09-19T12:41:35.649Z",
-        "updated_at": "2024-01-19T14:08:04.793Z",
-        "worksheetId": "29dee6e0-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
-        "id": "29e1a600-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"select DATEADD(SECOND,-60,NOW())\"",
-        "previous_block_id": "76b25880-381d-11ed-b64b-dfe44e641bf4",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "29dee6e0-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "created_at": "2022-09-19T13:20:27.959Z",
-        "updated_at": "2024-01-19T14:08:04.800Z",
-        "worksheetId": "29dee6e0-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
-      {
-        "config": {},
         "id": "29e30590-b6d4-11ee-a8f4-ab54b76e6fc9",
         "name": "Block",
         "description": "Description for Block",
@@ -773,21 +713,6 @@
       }
     ],
     "29f925a0-b6d4-11ee-a8f4-ab54b76e6fc9": [
-      {
-        "config": {},
-        "id": "29fa5e20-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "name": "Block",
-        "description": "Description for Block",
-        "content": "\"select * from vessel_tracking.ais_tracks limit 1\"",
-        "previous_block_id": "949f55a0-334a-11ed-b64b-dfe44e641bf4",
-        "next_block_id": null,
-        "block_type_id": "84b9233c-14e3-11eb-adc1-0242ac120002",
-        "worksheet_id": "29f925a0-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "created_at": "2022-09-19T15:08:31.986Z",
-        "updated_at": "2024-01-19T14:08:04.918Z",
-        "worksheetId": "29f925a0-b6d4-11ee-a8f4-ab54b76e6fc9",
-        "blockTypeId": "84b9233c-14e3-11eb-adc1-0242ac120002"
-      },
       {
         "config": {},
         "id": "29fb96a0-b6d4-11ee-a8f4-ab54b76e6fc9",
@@ -928,7 +853,6 @@
     ]
   },
   "vizMap": {
-    "2987ed40-b6d4-11ee-a8f4-ab54b76e6fc9": [],
     "298973e0-b6d4-11ee-a8f4-ab54b76e6fc9": [],
     "298afa80-b6d4-11ee-a8f4-ab54b76e6fc9": [
       {
@@ -986,7 +910,6 @@
     "29ae39f0-b6d4-11ee-a8f4-ab54b76e6fc9": [],
     "29bc6ac0-b6d4-11ee-a8f4-ab54b76e6fc9": [],
     "29bdca50-b6d4-11ee-a8f4-ab54b76e6fc9": [],
-    "29bf02d0-b6d4-11ee-a8f4-ab54b76e6fc9": [],
     "29c06260-b6d4-11ee-a8f4-ab54b76e6fc9": [],
     "29c19ae0-b6d4-11ee-a8f4-ab54b76e6fc9": [
       {
@@ -1016,8 +939,6 @@
     "29cd5ab0-b6d4-11ee-a8f4-ab54b76e6fc9": [],
     "29ceba40-b6d4-11ee-a8f4-ab54b76e6fc9": [],
     "29cff2c0-b6d4-11ee-a8f4-ab54b76e6fc9": [],
-    "29e01f60-b6d4-11ee-a8f4-ab54b76e6fc9": [],
-    "29e1a600-b6d4-11ee-a8f4-ab54b76e6fc9": [],
     "29e30590-b6d4-11ee-a8f4-ab54b76e6fc9": [],
     "29e4da50-b6d4-11ee-a8f4-ab54b76e6fc9": [
       {
@@ -1044,7 +965,6 @@
     "29eb6a00-b6d4-11ee-a8f4-ab54b76e6fc9": [],
     "29ecc990-b6d4-11ee-a8f4-ab54b76e6fc9": [],
     "29ee0210-b6d4-11ee-a8f4-ab54b76e6fc9": [],
-    "29fa5e20-b6d4-11ee-a8f4-ab54b76e6fc9": [],
     "29fb96a0-b6d4-11ee-a8f4-ab54b76e6fc9": [],
     "29fccf20-b6d4-11ee-a8f4-ab54b76e6fc9": [
       {
